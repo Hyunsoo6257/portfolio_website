@@ -8,18 +8,21 @@ import Experience from "../components/Resume/Experience";
 import Skills from "../components/Resume/Skills";
 import Courses from "../components/Resume/Courses";
 import Achievements from "../components/Resume/Achievements";
+import Visa from "../components/Resume/Visa";
 
 import courses from "../data/resume/courses";
 import degrees from "../data/resume/degrees";
 import work from "../data/resume/work";
 import { skills, categories } from "../data/resume/skills";
 import achievements from "../data/resume/achievements";
+import visa from "../data/resume/visa";
 
 // NOTE: sections are displayed in order defined.
 const sections = {
   Education: () => <Education data={degrees} />,
   Experience: () => <Experience data={work} />,
   Achievements: () => <Achievements data={achievements} />,
+  Visa: () => <Visa data={visa} />,
   Skills: () => <Skills skills={skills} categories={categories} />,
   Courses: () => <Courses data={courses} />,
 };

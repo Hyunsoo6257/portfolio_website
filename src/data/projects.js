@@ -1,42 +1,52 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: "Time 4 Team",
+    title: "Time 4 Team- Full Stack App",
     subtitle: "Scheduling App for team",
+    link: "https://github.com/Hyunsoo6257/Team_calendar",
     image: "/images/projects/project_1.jpg",
     date: "2025-01-01",
-    desc: `Built for a social impact hackathon. 
-      We developed a financial analysis tool that leverages the Plaid API to analyze a user's bank statements and 
-      maximize their tax deductions through charitable donations.`,
+    desc: `Built a full-stack scheduling application from concept to deployment. 
+      The app allows teams to efficiently find common available time slots by creating 
+      and sharing calendar URLs. Developed using React for the frontend, Node.js and 
+      Express for the backend, with MySQL database hosted on AWS RDS. Deployed on AWS EC2 
+      for scalable performance.`,
+  },
+  {
+    title: "GitPortfolio - UQ Hackathon 2024",
+    subtitle: "Portfolio Generator - UQ Hackathon 2024",
+    link: "https://github.com/soritaheng/uq-hackathon",
+    image: "/images/projects/GitPortfolio.png",
+    date: "2024-08-21",
+    desc: `Awarded Top 5 Finalist and Best Design at UQ Hackathon 2024. 
+      Created a dynamic portfolio generator that transforms GitHub profiles into professional websites. 
+      Built with React and Express.js, featuring GitHub API integration for repository management and 
+      Gemini API for intelligent content enhancement. Users can customize their portfolio design and 
+      deploy instantly with selected repositories.`,
   },
   {
     title: "Furnishings",
-    subtitle: "Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon",
-    link: "https://devpost.com/software/harvest",
+    subtitle: "E-commerce Web Application",
+    link: "https://github.com/Hyunsoo6257/Furnishings",
     image: "/images/projects/Project_2.png",
     date: "2024-04-20",
-    desc: `Won ~ $7000 in prizes for an advanced farming solution. 
-      Harvest leverages machine learning to optimize farming inputs 
-      while maximizing crop yields.`,
+    desc: `Developed a full-featured furniture e-commerce web application using Python and Flask. 
+      Implemented key functionalities including product search, category filtering, and shopping cart 
+      management. Built with SQLAlchemy ORM for efficient database operations and SQLite for data 
+      storage. Features responsive design for optimal user experience across all devices.`,
   },
+
   {
-    title: "Space Potato",
-    subtitle: "A kickstarter funded potato powered weather balloon.",
-    link: "http://www.spacepotato.org",
-    image: "/images/projects/spacepotato.jpg",
-    date: "2015-06-28",
-    desc: `Launched a potato battery powered weather balloon with two cameras and gps tracking. 
-      Resulting photos were published in a coffee table book. 
-      You can email me for a copy.`,
-  },
-  {
-    title: "Cat Detector",
-    subtitle: "A convolutional neural network to classify cats",
-    image: "/images/projects/catdetector.jpg",
-    date: "2015-05-15",
-    desc: `Trained a convolutional neural network to classify between ~ 80 cats breeds. 
-      Over 60,000 cats were classified before server bills made the project too expensive 
-      to continue hosting.`,
+    title: "Notakto - C# Game Library",
+    subtitle: "Board Game Library in C#",
+    link: "https://github.com/Hyunsoo6257/Notakto_game",
+    image: "/images/projects/Notakto.png",
+    date: "2024-09-15",
+    desc: `Built a C# library for two-dimensional, two-player board games. 
+      The framework supports multiple game modes including Human vs Human, Human vs Computer, 
+      and Computer vs Computer play. Implemented comprehensive game features such as 
+      move validation, save/load functionality, and move history (undo/redo). 
+      Designed with reusability in mind to support various classic board games.`,
   },
 ];
 

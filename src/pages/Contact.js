@@ -15,9 +15,21 @@ const Contact = () => (
         </div>
       </header>
       <div className="email-at">
-        <p>Feel free to get in touch. You can email me at: </p>
-        h28.park@connect.qut.edu.au
+        <p>I would love to hear from you! You can reach me at:</p>
+        <p>Email: h28.park@connect.qut.edu.au</p>
+        <p>Phone: 0411-026-257</p>
       </div>
+
+      <div className="calendar-container">
+        <iframe
+          src="https://koalendar.com/e/book-a-phone-call-with-me?embed=true"
+          width="100%"
+          height="800px"
+          frameBorder="0"
+          title="Book a phone call with me"
+        />
+      </div>
+
       <ContactIcons />
     </article>
   </Main>

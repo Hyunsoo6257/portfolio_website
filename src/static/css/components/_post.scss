@@ -24,8 +24,7 @@
     .title {
       @include vendor("flex-grow", "1");
       -ms-flex: 1;
-      padding: (_size(section-spacing) * 1.25) _size(section-spacing)
-        (_size(section-spacing) * 1.1) _size(section-spacing);
+      padding: 2.75em 3em 2.3em 3em;
 
       h2 {
         font-weight: _font(weight-heading-extrabold);
@@ -63,6 +62,10 @@
         text-transform: uppercase;
         white-space: nowrap;
       }
+    }
+
+    #contact & {
+      margin-bottom: 1em !important;
     }
   }
 

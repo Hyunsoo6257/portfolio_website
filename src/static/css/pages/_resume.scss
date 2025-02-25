@@ -24,6 +24,7 @@
     }
   }
   .experience {
+    margin-top: 3em;
     .title {
       text-align: center;
     }
@@ -32,6 +33,13 @@
       p {
         margin: 0;
       }
+    }
+  }
+
+  .visa {
+    margin-top: 3em;
+    .title {
+      text-align: center;
     }
   }
 
@@ -46,6 +54,7 @@
   }
 
   .courses {
+    margin-top: 3em;
     padding-top: 1.6em;
     .title {
       text-align: center;
@@ -60,7 +69,7 @@
   }
 
   .skills {
-    margin-top: 2em;
+    margin-top: 3em;
     .title {
       text-align: center;
       p {
@@ -75,7 +84,7 @@
   }
 
   .references {
-    margin: 2em 0;
+    margin-top: 3em;
     .title {
       text-align: center;
     }

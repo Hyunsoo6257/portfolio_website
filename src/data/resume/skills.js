@@ -1,5 +1,10 @@
 const skills = [
   {
+    title: "React",
+    competency: 4,
+    category: ["Web Development", "Javascript"],
+  },
+  {
     title: "Javascript",
     competency: 4,
     category: ["Web Development", "Languages", "Javascript"],
@@ -9,11 +14,7 @@ const skills = [
     competency: 4,
     category: ["Web Development", "Javascript"],
   },
-  {
-    title: "React",
-    competency: 4,
-    category: ["Web Development", "Javascript"],
-  },
+
   {
     title: "Express.JS",
     competency: 3,

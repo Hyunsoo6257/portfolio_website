@@ -1,13 +1,13 @@
 const courses = [
   {
     title: "Data Structures and Algorithms",
-    number: "IFN680",
+    number: "IFN630",
     link: "",
     university: "QUT",
   },
   {
     title: "Network Systems",
-    number: "IFN660",
+    number: "IFN507",
     link: "",
     university: "QUT",
   },
@@ -25,7 +25,7 @@ const courses = [
   },
   {
     title: "Data Mining",
-    number: "IFN645",
+    number: "IFN509",
     link: "",
     university: "QUT",
   },

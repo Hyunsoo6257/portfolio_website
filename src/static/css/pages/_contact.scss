@@ -1,9 +1,10 @@
 // Contact page (/contact)
 
+#main #contact.post > header {
+  margin-bottom: 1em;
+}
 #contact {
   .email-at {
-    margin: 3em 0;
-
     p {
       margin: 0;
     }
