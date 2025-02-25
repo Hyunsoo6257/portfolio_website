@@ -4,7 +4,7 @@ const data = [
     title: "Time 4 Team- Full Stack App",
     subtitle: "Scheduling App for team",
     link: "https://github.com/Hyunsoo6257/Team_calendar",
-    image: "/images/projects/project_1.jpg",
+    image: "./images/projects/project_1.jpg",
     date: "2025-01-01",
     desc: `Built a full-stack scheduling application from concept to deployment. 
       The app allows teams to efficiently find common available time slots by creating 
@@ -16,7 +16,7 @@ const data = [
     title: "GitPortfolio - UQ Hackathon 2024",
     subtitle: "Portfolio Generator - UQ Hackathon 2024",
     link: "https://github.com/soritaheng/uq-hackathon",
-    image: "/images/projects/GitPortfolio.png",
+    image: "./images/projects/GitPortfolio.png",
     date: "2024-08-21",
     desc: `Awarded Top 5 Finalist and Best Design at UQ Hackathon 2024. 
       Created a dynamic portfolio generator that transforms GitHub profiles into professional websites. 
