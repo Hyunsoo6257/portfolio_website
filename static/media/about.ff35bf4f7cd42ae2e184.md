@@ -11,6 +11,7 @@ I am currently seeking new opportunities as a Full Stack Developer. I previously
 - My team and I developed GitPortfolio, a customizable GitHub portfolio web application using React, Node.js, and Express, which we showcased at the UQ Hackathon 2024, where we ranked in the top 5.
 - In my first year, I completed units focusing on networking, algorithms, Linux systems, C language, and cybersecurity, which enabled me to build a strong foundation in computer science.
 - After finishing my first year, during the summer break, I developed a full-stack app based on my own idea to manage team schedules. This app helps find the optimal time for all team members to meet.
+- Currently, I'm more interested in AI technologies, particularly in Natural Language Processing and Generative AI. I'm taking advanced courses covering text analysis, machine learning algorithms, and various AI applications.
 
 # I Like
 
