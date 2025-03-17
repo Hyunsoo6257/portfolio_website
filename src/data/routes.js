@@ -4,10 +4,10 @@ const routes = [
     label: "Hyunsoo Park",
     path: "/",
   },
-  {
-    label: "About",
-    path: "/about",
-  },
+  // {
+  //   label: "About",
+  //   path: "/about",
+  // },
   {
     label: "Resume",
     path: "/resume",

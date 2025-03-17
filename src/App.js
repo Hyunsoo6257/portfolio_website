@@ -18,7 +18,7 @@ const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
     <Suspense fallback={<Main />}>
       <Routes>
-        <Route path="/" element={<Navigate to="/about" replace />} />
+        <Route path="/" element={<Navigate to="/resume" replace />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />

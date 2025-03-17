@@ -1,6 +1,7 @@
 # Intro
 
-I am currently seeking new opportunities as a Full Stack Developer. I previously worked at Fields Software Company until 2023 as a Web Developer, where I specialized in building web applications using React and Node.js. I worked as a Housing Management Specialist in the public sector at the Korea Government, managing public housing programs and applications.
+A curious, solution-driven software engineer with a passion for transforming complex challenges into elegant, user-friendly solutions.
+I previously worked at Fields Software Company until 2023 as a Web Developer, where I specialized in building web applications using React and Node.js. I worked as a Housing Management Specialist in the public sector at the Korea Government, managing public housing programs and applications.
 
 # Some History
 
