@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Markdown from "markdown-to-jsx";
-import about from "../data/about.md"; // 직접 import
+import about from "../data/about.md";
 import Main from "../layouts/Main";
 
 const About = () => {
@@ -13,7 +13,7 @@ const About = () => {
       .then((res) => res.text())
       .then((text) => setMarkdown(text))
       .catch(() => setMarkdown("Failed to load about content."));
-  }, []); // 의존성 배열 추가
+  }, []);
 
   const count = markdown
     .split(/\s+/)
