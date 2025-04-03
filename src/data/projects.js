@@ -1,6 +1,17 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: "BrisbaneEvent Admin Dashboard",
+    subtitle: "Full-stack Admin System",
+    image: "/images/projects/Project_3.jpg",
+    date: "2025-03-01 ~ ing",
+    desc: `Built a full-stack admin system for event management in collaboration with Brisbane Council. 
+      The system allows for efficient tracking and management of events, featuring event listings, 
+      interactive data visualizations, and data export capabilities. Developed using Next.js for the frontend, 
+      Node.js and Mongoose for the backend, with AWS Cognito for secure role-based user authentication and 
+      access management.`,
+  },
+  {
     title: "Time 4 Team- Full Stack App",
     subtitle: "Scheduling App for team",
     link: "https://github.com/Hyunsoo6257/Team_calendar",
