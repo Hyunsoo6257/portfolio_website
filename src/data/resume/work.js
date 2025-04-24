@@ -14,7 +14,7 @@
 const work = [
   {
     name: "Fields Software Company",
-    position: "Web Developer",
+    position: "Front-End Developer",
     url: "",
     startDate: "2022-12-01",
     endDate: "2023-08-01",
@@ -28,7 +28,7 @@ const work = [
     ],
   },
   {
-    name: "Gyeonggi Provincial Government",
+    name: "Gyeonggi Government",
     position: "Housing Management Specialist",
     url: "",
     startDate: "2021-04-01",
