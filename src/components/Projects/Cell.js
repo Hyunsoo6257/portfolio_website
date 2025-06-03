@@ -13,8 +13,25 @@ const Cell = ({ data }) => (
           {dayjs(data.date).format('MMMM, YYYY')}
         </time>
       </header>
-      <a href={data.link} className="image">
-        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
+      <a href={data.link} className="image" style={{ 
+        display: 'block',
+        position: 'relative',
+        width: '100%',
+        paddingTop: '56.25%', // 16:9 Aspect Ratio
+        overflow: 'hidden'
+      }}>
+        <img 
+          src={`${process.env.PUBLIC_URL}${data.image}`} 
+          alt={data.title}
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover'
+          }}
+        />
       </a>
       <div className="description">
         <p>{data.desc}</p>
