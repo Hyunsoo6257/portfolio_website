@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import dayjs from 'dayjs';
+import React from "react";
+import PropTypes from "prop-types";
+import dayjs from "dayjs";
 
 const Cell = ({ data }) => (
   <div className="cell-container">
@@ -10,26 +10,30 @@ const Cell = ({ data }) => (
           <a href={data.link}>{data.title}</a>
         </h3>
         <time className="published">
-          {dayjs(data.date).format('MMMM, YYYY')}
+          {dayjs(data.date).format("MMMM, YYYY")}
         </time>
       </header>
-      <a href={data.link} className="image" style={{ 
-        display: 'block',
-        position: 'relative',
-        width: '100%',
-        paddingTop: '56.25%', // 16:9 Aspect Ratio
-        overflow: 'hidden'
-      }}>
-        <img 
-          src={`${process.env.PUBLIC_URL}${data.image}`} 
+      <a
+        href={data.link}
+        className="image"
+        style={{
+          display: "block",
+          position: "relative",
+          width: "100%",
+          paddingTop: "56.25%", // 16:9 Aspect Ratio
+          overflow: "hidden",
+        }}
+      >
+        <img
+          src={`${process.env.PUBLIC_URL}${data.image}`}
           alt={data.title}
           style={{
-            position: 'absolute',
+            position: "absolute",
             top: 0,
             left: 0,
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover'
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
           }}
         />
       </a>
