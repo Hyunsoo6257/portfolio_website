@@ -28,10 +28,10 @@ const SideBar = () => (
         specializing in full-stack development with a strong focus on frontend
         technologies. Based in Brisbane at
         <a href="https://www.qut.edu.au/"> QUT</a> I am currently seeking new
-        opportunities as a Full-Stack Developer. My expertise includes working
-        with technologies such as Node.js, Express, MySQL, React, and
-        TypeScript. Additionally, I am currently expanding my knowledge in
-        ASP.NET, NoSQL, and cloud services like AWS, Azure.
+        opportunities as a Full-Stack developer or Front End developer. My
+        expertise includes working with technologies such as React, Node.js,
+        Express, MySQL and TypeScript. Additionally, I am currently expanding my
+        knowledge in C#, ASP.NET and cloud services like AWS, Azure.
       </p>
       <ul className="actions">
         <li>

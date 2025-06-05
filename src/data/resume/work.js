@@ -13,6 +13,35 @@
  */
 const work = [
   {
+    name: "NewMarket Hotel",
+    position: "Food and Beverage Attendant",
+    url: "",
+    startDate: "2024-11-01",
+    endDate: "2025-06-01",
+    summary:
+      "Provided high-quality customer service in a fast-paced hospitality environment",
+    highlights: [
+      "Maintained a clean and organized work area to ensure a positive dining experience",
+      "Collaborated with team members to ensure seamless service delivery",
+      "ssisted in opening and closing duties, including POS operations and table arrangementss",
+    ],
+  },
+  {
+    name: "Capstone Project",
+    position: "Full-Stack Developer",
+    url: "",
+    startDate: "2025-03-01",
+    endDate: "2025-06-01",
+    summary:
+      "Collaborated with a Brisbane government agency to develop a full-stack internal management system",
+    highlights: [
+      "Developed a full-stack admin system using Next.js, Supabase, and PostgreSQL",
+      "Implemented role-based access control and data visualization features",
+      "Communicated weekly with the client to gather requirements and deliver requested features",
+      "Deployed the application using Vercel",
+    ],
+  },
+  {
     name: "Fields Software Company",
     position: "Front-End Developer",
     url: "",
@@ -28,16 +57,17 @@ const work = [
     ],
   },
   {
-    name: "Gyeonggi Government",
-    position: "Housing Management Specialist",
+    name: "Local Government, South Korea",
+    position: "Project Coordinator",
     url: "",
     startDate: "2021-04-01",
     endDate: "2022-08-01",
-    summary: "Managed public housing programs and applications",
+    summary:
+      "Reviewed architectural plans for compliance and coordinated public construction projects",
     highlights: [
-      "Managed rental housing programs, ensuring compliance with governmental policies and regulations",
-      "Approved housing applications, coordinating with relevant government departments",
-      "Handled administrative duties related to public housing management",
+      "Coordinated with architects, contractors, and internal departments to facilitate project approvals",
+      "Managed public rental housing programs and approved applications in accordance with government policies",
+      "Handled administrative duties related to building regulations and public infrastructure planning",
     ],
   },
 ];

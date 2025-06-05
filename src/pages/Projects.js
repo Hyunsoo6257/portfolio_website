@@ -2,15 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Main from "../layouts/Main";
 
-// 컴포넌트들 import
 import Projects from "../components/Projects/Projects";
 import ProjectAchievements from "../components/Projects/ProjectAchievements";
 
-// 데이터 import
 import projects from "../data/projects";
 import achievements from "../data/projects/achievements";
 
-// 섹션 정의
 const sections = {
   Projects: () => <Projects data={projects} />,
   Achievements: () => <ProjectAchievements data={achievements} />,
