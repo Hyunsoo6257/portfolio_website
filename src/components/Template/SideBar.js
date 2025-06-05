@@ -13,9 +13,7 @@ const SideBar = () => (
       <header>
         <h2>Hyunsoo Park</h2>
         <p>
-          <a href="mailto:h28.park@connect.qut.edu.au">
-            h28.park@connect.qut.edu.au
-          </a>
+          <a href="mailto:hyunsoo6257@gmail.com">hyunsoo6257@gmail.com</a>
         </p>
         <ContactIcons />
       </header>
